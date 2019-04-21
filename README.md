@@ -1,28 +1,14 @@
 # Solutions-Problems-C-
 
-You are given a sequence of chars consisting of () and [].
+A Monte Carlo Simulation is a way of approximating the value of a function where calculating the actual value is difficult or impossible.
+It uses random sampling to define constraints on the value and then makes a sort of "best guess."
 
-A string of type is said to be correct:
+A simple Monte Carlo Simulation can be used to calculate the value for Pi.
 
-1- if its an empty string.
+If you had a circle and a square where the length of a side of the square was the same as the diameter of the circle, the ratio of the area of the circle to the area of the square would be Pi/4.
 
-2- if the string A is correct, (A) and [A] are correct.
+So, if you put this circle inside the square and select many random points inside the square, the number of points inside the circle divided by the number of points inside the square and the circle would be approximately Pi/4. 
 
-3- if the strings A and B are correct, the concat AB is correct.
-
-
-the string contains at most 10 000 chars.
-
-Example: [()] is correct, ([)] is not correct, (( is not correct.
-
-Implement the method check(string seq) to check the correctness of this type.
-
-check returns true if its correct also return false.
-
-to compile this program on Linux: 
-
-C++11 SOLUTION
-
-$ g++ -std=c++11 -o Sequence_paretheses Sequence_paretheses.cpp
+$ g++ -o Pi_Approx Pi_Approximation.cpp
 
 
