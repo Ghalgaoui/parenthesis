@@ -1,5 +1,7 @@
 # Solutions-Problems-C-
+
 You are given a sequence of chars consisting of () and [].
+
 A string of type is said to be correct:
 
 1- if its an empty string.
@@ -17,4 +19,10 @@ Implement the method check(string seq) to check the correctness of this type.
 
 check returns true if its correct also return false.
 
-to compile this program on Linux: $ gcc -o sequence Sequence_paretheses.cpp
+to compile this program on Linux: 
+
+C++11 SOLUTION
+
+$ g++ -std=c++11 -o Sequence_paretheses Sequence_paretheses.cpp
+
+
