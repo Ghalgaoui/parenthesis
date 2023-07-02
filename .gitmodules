@@ -1,0 +1,3 @@
+[submodule "ti-rpmsg-char"]
+	path = ti-rpmsg-char
+	url = git://git.ti.com/rpmsg/ti-rpmsg-char.git
